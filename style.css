@@ -1,0 +1,119 @@
+.img-pic{
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.header{
+ background-color: #1c496b7e;  
+}
+.banner{
+    background: url(image/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.list-group-item:hover{
+    background:#1c496b ;
+    color:white
+}
+.back{
+    background: url(image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.image{
+    width: 300px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+  
+}
+.image:hover{
+    transform: translateY(40px);
+}
+.secard{
+    background-color: #dfdcdc;
+    width: 300px;
+    height: auto;
+    border-radius:15px;
+}
+.yellow{
+    width: 70px;
+    height: 70px;
+}
+.image-1{
+    width: 470px;
+    height: 600px;
+    object-fit: cover;
+}
+.back-1{
+    background: url(image/background-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-2{
+    margin-top: -260px;
+}
+.img-1{
+    width:470px;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 20px;
+}
+.card{
+    width: 250px;
+    height: auto;
+
+}
+.card:hover{
+    background:#1c496b ;
+    color:white;
+}
+.background-3{
+    background: url(image/background-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+    .image-1{
+        width: 400px;
+    }
+    .img-1{
+        width:380px;
+     
+    }
+}
+
+
+@media only screen and (max-width: 1000px){
+    .image-1{
+        width: 320px;
+    }
+    .img-1{
+        width:320px;
+        margin-left: 10px;
+    }
+    .section-2{
+        margin-top: -160px;
+    }
+}
+@media only screen and (max-width: 750px){
+ 
+    .img-1{
+        width:100%;
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 450px){
+    .section-2{
+        margin-top: -100px;
+    }
+}
